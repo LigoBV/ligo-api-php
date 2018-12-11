@@ -1,0 +1,24 @@
+{
+    "name": "ligo/api_php",
+    "description": "Php package for interacting with the Ligo Api",
+    "keywords": ["template", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Colin Petruno",
+            "email": "developers@ligo.nl"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LigoApi\\": "src/"
+        }
+    }
+}
