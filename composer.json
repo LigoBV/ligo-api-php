@@ -2,7 +2,7 @@
     "name": "ligo/api_php",
     "description": "Php package for interacting with the Ligo Api",
     "keywords": ["template", "composer", "package"],
-    "license": "DBAD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Colin Petruno",
